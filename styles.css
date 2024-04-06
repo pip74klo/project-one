@@ -26,6 +26,7 @@ body {
 }
 .color {
     color:lightskyblue;
+    
 }
 
 .btn {
@@ -35,9 +36,27 @@ body {
     font-size: 20px;
     background-color:transparent;
     border: 1px solid  #515151;
+    transition: 0.3s ease-out;
+    cursor: pointer;
 }
 
-.btn:hover{
+/* .btn:hover{
     background-color: #515151;
     color:wheat;
+} */
+
+@media (hover:hover){
+    .btn:hover{
+        background-color: #515151;
+        color:wheat;
+    }
+    .btn:active{
+        background-color: #515151;
+        color:wheat;
+    }
+    .btn:focus-visible{
+        background-color: #515151;
+        color:wheat;
+    }
+
 }
