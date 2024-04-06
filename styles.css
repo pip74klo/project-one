@@ -36,27 +36,22 @@ body {
     font-size: 20px;
     background-color:transparent;
     border: 1px solid  #515151;
-    transition: 0.3s ease-out;
+    transition: 0.2s ease-out;
     cursor: pointer;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
 }
 
-/* .btn:hover{
-    background-color: #515151;
-    color:wheat;
-} */
 
-@media (hover:hover){
+
+@media (min-width:1200px){
     .btn:hover{
         background-color: #515151;
         color:wheat;
-    }
-    .btn:active{
-        background-color: #515151;
-        color:wheat;
-    }
-    .btn:focus-visible{
-        background-color: #515151;
-        color:wheat;
-    }
+    } 
 
 }
+    
+
+
+
