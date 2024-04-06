@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color:bisque;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+}
+
+.title {
+    background-color: black;
+    color:blanchedalmond;
+    padding:20px;
+    display:inline;
+    border-radius:10px
+}
+.color {
+    color:lightskyblue;
+}
+
+.btn {
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color:transparent;
+    border: 1px solid  #515151;
+}
+
+.btn:hover{
+    background-color: #515151;
+    color:wheat;
+}
